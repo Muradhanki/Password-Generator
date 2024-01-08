@@ -112,44 +112,44 @@ function getPasswordOptions() {
   } else {
     // include special characters?
 
-    var hasSpecialCharacter = confirm(
+    var includeSpecialCharacter = confirm(
       "Would you like to include special characters?"
     );
 
-    if (hasSpecialCharacter) {
+    if (includeSpecialCharacter) {
       userPassword += specialCharacters.join("");
     }
 
     // include upper case characters?
 
-    var hasUpperCase = confirm("Would you like to include uppercase letters?");
+    var includeUpperCase = confirm("Would you like to include uppercase letters?");
 
-    if (hasUpperCase) {
+    if (includeUpperCase) {
       userPassword += upperCasedCharacters.join("");
     }
 
     // include lower case characters?
 
-    var hasLowerCase = confirm("Would you like to include lowercase letters?");
+    var includeLowerCase = confirm("Would you like to include lowercase letters?");
 
-    if (hasLowerCase) {
+    if (includeLowerCase) {
       userPassword += lowerCasedCharacters.join("");
     }
     // include numbers?
 
-    var hasNumbers = confirm("Would you like to include numbers?");
+    var includeNumbers = confirm("Would you like to include numbers?");
 
-    if (hasNumbers) {
+    if (includeNumbers) {
       userPassword += numericCharacters.join("");
     }
 
     // check if at least one character type is true:
 
     if (
-      hasSpecialCharacter === false &&
-      hasUpperCase === false &&
-      hasLowerCase === false &&
-      hasNumbers === false
+      includeSpecialCharacter === false &&
+      includeUpperCase === false &&
+      includeLowerCase === false &&
+      includeNumbers === false
     ) {
       // user must restart is all are false
 
