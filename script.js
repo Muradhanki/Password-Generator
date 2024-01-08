@@ -101,12 +101,9 @@ function getPasswordOptions() {
 
   // check user input is between 8 - 128 (continue if true and restart if false)
 
-  if (passwordLength < 8) {
-    confirm("Password must be at least 8 characters");
-    return;
-  } else if (passwordLength > 128) {
-    confirm("Password must be less than 128 characters");
-    return;
+  if (passwordLength < 8 || passwordLength > 128) {
+    confirm("Password must be between 8 and 128 characters");
+    return false;
 
     // continue prompts
   } else {
@@ -188,16 +185,18 @@ function getPasswordOptions() {
     // check if at least one character type is true:
 
     if (
-      includeSpecialCharacter === false &&
-      includeUpperCase === false &&
-      includeLowerCase === false &&
-      includeNumbers === false
+      !includeSpecialCharacter &&
+      !includeUpperCase &&
+      !includeLowerCase &&
+      !includeNumbers
     ) {
       // user must restart is all are false
 
-      confirm("You must select at least one special character ");
-      return;
+      confirm("You must select at least one character type");
+      return false;
     }
+  
+    return true;
   }
 }
 
@@ -210,10 +209,18 @@ function getRandom(arr) {
 function generatePassword() {
   getPasswordOptions();
 
+  var generatedPassword = "";
   for (var i = 0; i < passwordLength; i++) {
-    finalPassword += getRandom(userPassword);
+    generatedPassword += getRandom(userPassword);
   }
-  return finalPassword;
+  return generatedPassword;
+}
+
+// Function to reset the password-related variables
+function resetPassword() {
+  passwordLength = 0;
+  userPassword = "";
+  finalPassword = "";
 }
 
 // Get references to the #generate element
@@ -221,6 +228,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
+  resetPassword(); // Reset password-related variables
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
