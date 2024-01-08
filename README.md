@@ -1,6 +1,6 @@
-# Console-Finances
+# Module 5 Challenge: Password Generator
 
-Challenge submission of the week 4
+Challenge submission of the week 5
 
 
 ## Table Of Contents
@@ -18,25 +18,18 @@ Challenge submission of the week 4
 ## About The Project
 
 
-https://muradhanki.github.io/Console-Finances/
+https://muradhanki.github.io/Password-Generator/
 
 Hi everyone! This is Muradhan. I am a construction project manager of 10 years whom always had an interest overt the IT industry. Finally decided to make the switch, and started the EdX's Front end development boot camp to switch his field of work. 
 
-In this assignment, I am tasked with creating code for analyzing the financial records of a company. I'll be building analyzing tool using the JavaScript Framework. We have been asked to follow the template below for the reference.
+In this assignment, I am tasked to create an application that an employee can use to generate a random password. The app that I have written will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
-Financial Analysis 
-----------------
-Total Months: 86
-Total: $38382578
-Average Change: -2315.12
-Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
-Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
 
-![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Website%20main%20page.jpg "Web console application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/Webpage%20screen%20shot.jpg "Web console application Screen Shot")
 
 To get to see the results in the console menu, follow these simple example steps please.
 
-* Step 1: go to   (https://muradhanki.github.io/Console-Finances/) with your favorite web borwser.
+* Step 1: go to   (https://muradhanki.github.io/Password-Generator/) with your favorite web borwser.
 
 ![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Website%20main%20page.jpg "Web application Screen Shot")
 
