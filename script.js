@@ -122,7 +122,7 @@ function getPasswordOptions() {
     if (hasUpperCase) {
       userPassword += upperCasedCharacters.join("");
     }
-    
+
     // include lower case characters?
 
     var hasLowerCase = confirm("Would you like to include lowercase letters?");
@@ -130,6 +130,13 @@ function getPasswordOptions() {
     if (hasLowerCase) {
       userPassword += lowerCasedCharacters.join("");
     }
+      // include numbers?
+
+      var hasNumbers = confirm("Would you like to include numbers?");
+
+      if (hasNumbers) {
+        userPassword += numericCharacters.join("");
+      }
 
 
 
