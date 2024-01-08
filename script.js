@@ -88,6 +88,11 @@ var upperCasedCharacters = [
   "Z",
 ];
 
+// Initialize variables
+var passwordLength;
+var userPassword = "";
+var finalPassword = "";
+
 // Function to prompt user for password options
 function getPasswordOptions() {
   passwordLength = prompt(
@@ -99,7 +104,7 @@ function getPasswordOptions() {
   if (passwordLength < 8) {
     confirm("Password must be at least 8 characters");
     return;
-  } else if (passwordLength > 129) {
+  } else if (passwordLength > 128) {
     confirm("Password must be less than 128 characters");
     return;
 
