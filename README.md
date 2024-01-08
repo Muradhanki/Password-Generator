@@ -57,7 +57,7 @@ To get to create a password on the web application, follow these simple steps pl
 
 ![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/6%20final%20pw%20page.jpg "Web application Screen Shot")
  
-Being a a future front-end developer, I was in need of final code to run the print the analysis to the console by using JavaScript.
+Being a a future front-end developer, I was in need of final code to run the paswword output to the web application by using JavaScript.
 
 The following image shows the web application's appearance and functionality:
 
@@ -95,21 +95,21 @@ To get a local copy up and running follow these simple example steps.
 1. Fire up your GitBash console and copy the line below
 
 2. 
-git clone git@github.com:Muradhanki/Console-Finances.git
+git clone git@github.com:Muradhanki/Password-Generator.git
 
-![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/github%20repo%20page%20screenshot.jpg "Git Bash Installation")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/git%20bash%20clone%20demo.jpg "Git Bash Installation")
 
 ## Roadmap
 
-See the [open issues](https://github.com/Muradhanki/Console-Finances/issues) for a list of proposed features (and known issues).
+See the [open issues](https://muradhanki.github.io/Password-Generator/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Muradhanki/Console-Finances/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://muradhanki.github.io/Password-Generator/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/Muradhanki/Console-Finances/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://muradhanki.github.io/Password-Generator/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -121,7 +121,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Muradhanki/Console-Finances/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://muradhanki.github.io/Password-Generator/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
