@@ -138,6 +138,13 @@ function getPasswordOptions() {
         userPassword += numericCharacters.join("");
       }
 
+        // check if at least one character type is true:
+
+    if (hasSpecialCharacter === false &&
+      hasUpperCase === false &&
+      hasLowerCase === false &&
+      hasNumbers === false) {
+
 
 
 
