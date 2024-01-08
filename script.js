@@ -93,6 +93,15 @@ function getPasswordOptions() {
 
   passwordLength = prompt("Enter the length of your password (between 8 and 128 characters");
 
+   // check user input is between 8 - 128 (continue if true and restart if false)
+
+   if (passwordLength < 8) {
+    confirm("Password must be at least 8 characters");
+    return;
+
+  } else if (passwordLength > 129) {
+    confirm("Password must be less than 128 characters");
+    return;
 }
 
 // Function for getting a random element from an array
