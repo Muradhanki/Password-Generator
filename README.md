@@ -27,19 +27,31 @@ In this assignment, I am tasked to create an application that an employee can us
 
 ![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/Webpage%20screen%20shot.jpg "Web console application Screen Shot")
 
-To get to see the results in the console menu, follow these simple example steps please.
+To get to create a password on the web application, follow these simple steps please.
 
 * Step 1: go to   (https://muradhanki.github.io/Password-Generator/) with your favorite web borwser.
 
-![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Website%20main%20page.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/Webpage%20screen%20shot.jpg "Web application Screen Shot")
 
-* Step 2: Right click and select the inspect option.
+* Step 2: Click on to the Generate Password button to insert the desired password length between 8 and 128 characters .
 
-![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/rigth%20click%20to%20Inspect%20Menu.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/1%20pw%20length%20prompt.jpg "Web application Screen Shot")
 
-* Step 3: Select the console tab.
+* Step 3: Select whether special characters are desired within the password.
 
-![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Select%20console.jpgg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/2%20special%20character%20prompt.jpg "Web application Screen Shot")
+
+* Step 4: Select whether Uppercase characters are desired within the password.
+
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/3%20uppercase%20prompt.jpg "Web application Screen Shot")
+
+* Step 3: Select whether special characters are desired within the password.
+
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/2%20special%20character%20prompt.jpg "Web application Screen Shot")
+
+* Step 3: Select whether special characters are desired within the password.
+
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/2%20special%20character%20prompt.jpg "Web application Screen Shot")
 
 * Step 4: Preview the console data 
 
