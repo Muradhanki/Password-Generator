@@ -110,38 +110,80 @@ function getPasswordOptions() {
 
     // continue prompts
   } else {
-    // include special characters?
+    // Separate variables for each character type
+    var selectedSpecialCharacters = "";
+    var selectedUpperCasedCharacters = "";
+    var selectedLowerCasedCharacters = "";
+    var selectedNumericCharacters = "";
 
+    // // include special characters?
+
+    // var includeSpecialCharacter = confirm(
+    //   "Would you like to include special characters?"
+    // );
+
+    // if (includeSpecialCharacter) {
+    //   userPassword += specialCharacters.join("");
+    // }
+
+    // // include upper case characters?
+
+    // var includeUpperCase = confirm("Would you like to include uppercase letters?");
+
+    // if (includeUpperCase) {
+    //   userPassword += upperCasedCharacters.join("");
+    // }
+
+    // // include lower case characters?
+
+    // var includeLowerCase = confirm("Would you like to include lowercase letters?");
+
+    // if (includeLowerCase) {
+    //   userPassword += lowerCasedCharacters.join("");
+    // }
+    // // include numbers?
+
+    // var includeNumbers = confirm("Would you like to include numbers?");
+
+    // if (includeNumbers) {
+    //   userPassword += numericCharacters.join("");
+    // }
+
+    // include special characters?
     var includeSpecialCharacter = confirm(
       "Would you like to include special characters?"
     );
-
     if (includeSpecialCharacter) {
-      userPassword += specialCharacters.join("");
+      selectedSpecialCharacters = specialCharacters.join("");
     }
 
     // include upper case characters?
-
-    var includeUpperCase = confirm("Would you like to include uppercase letters?");
-
+    var includeUpperCase = confirm(
+      "Would you like to include uppercase letters?"
+    );
     if (includeUpperCase) {
-      userPassword += upperCasedCharacters.join("");
+      selectedUpperCasedCharacters = upperCasedCharacters.join("");
     }
 
     // include lower case characters?
-
-    var includeLowerCase = confirm("Would you like to include lowercase letters?");
-
+    var includeLowerCase = confirm(
+      "Would you like to include lowercase letters?"
+    );
     if (includeLowerCase) {
-      userPassword += lowerCasedCharacters.join("");
+      selectedLowerCasedCharacters = lowerCasedCharacters.join("");
     }
+
     // include numbers?
-
     var includeNumbers = confirm("Would you like to include numbers?");
-
     if (includeNumbers) {
-      userPassword += numericCharacters.join("");
+      selectedNumericCharacters = numericCharacters.join("");
     }
+    // Concatenate selected character types
+    userPassword =
+      selectedSpecialCharacters +
+      selectedUpperCasedCharacters +
+      selectedLowerCasedCharacters +
+      selectedNumericCharacters;
 
     // check if at least one character type is true:
 
@@ -168,7 +210,7 @@ function getRandom(arr) {
 function generatePassword() {
   getPasswordOptions();
 
-  for (i = 0; i < passwordLength; i++) {
+  for (var i = 0; i < passwordLength; i++) {
     finalPassword += getRandom(userPassword);
   }
   return finalPassword;
