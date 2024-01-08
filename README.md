@@ -45,32 +45,36 @@ To get to create a password on the web application, follow these simple steps pl
 
 ![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/3%20uppercase%20prompt.jpg "Web application Screen Shot")
 
-* Step 3: Select whether special characters are desired within the password.
+* Step 5: Select whether Lowercase characters are desired within the password.
 
-![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/2%20special%20character%20prompt.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/4%20lowercase%20prompt.jpg "Web application Screen Shot")
 
-* Step 3: Select whether special characters are desired within the password.
+* Step 6: Select whether Numbers are desired within the password.
 
-![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/2%20special%20character%20prompt.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/5%20numbers%20prompt.jpg "Web application Screen Shot")
 
-* Step 4: Preview the console data 
+* Step 7: Preview the provided password
 
-![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Console%20data%20visible.jpg "Web application Screen Shot")
+![Screenshot](https://github.com/Muradhanki/Password-Generator/blob/main/images/6%20final%20pw%20page.jpg "Web application Screen Shot")
  
 Being a a future front-end developer, I was in need of final code to run the print the analysis to the console by using JavaScript.
 
-* The total number of months included in the dataset.
+The following image shows the web application's appearance and functionality:
 
-* The net total amount of Profit/Losses over the entire period.
+![password generator demo](https://github.com/Muradhanki/Password-Generator/blob/main/images/Webpage%20screen%20shot.jpg)
 
-* The average of the changes in Profit/Losses over the entire period.
 
-* You will need to track what the total change in Profit/Losses are from month to month and then find the average.
-(Total/(Number of months - 1))
-
-* The greatest increase in Profit/Losses (date and difference in the amounts) over the entire period.
-
-* The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
+* Generate a password when the button is clicked
+  * Present a series of prompts for password criteria
+    * Length of password
+      * At least 8 characters but no more than 128.
+    * Character types
+      * Lowercase
+      * Uppercase
+      * Numeric
+      * Special characters ($@%&*, etc)
+  * Code should validate for each input and at least one character type should be selected
+  * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
 
 ## Built With
 
