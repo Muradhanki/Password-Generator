@@ -115,6 +115,15 @@ function getPasswordOptions() {
         userPassword += specialCharacters.join("");
       }
 
+      // include upper case characters?
+
+    var hasUpperCase = confirm("Would you like to include uppercase letters?");
+
+    if (hasUpperCase) {
+      userPassword += upperCasedCharacters.join("");
+    }
+
+
 
 // Function for getting a random element from an array
 function getRandom(arr) {
