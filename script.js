@@ -145,6 +145,18 @@ function getPasswordOptions() {
       hasLowerCase === false &&
       hasNumbers === false) {
 
+      // user must restart is all are false
+
+      confirm("You must select at least one special character ");
+      return;
+
+    }
+
+  }
+
+}
+
+
 
 
 
