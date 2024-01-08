@@ -103,6 +103,18 @@ function getPasswordOptions() {
     confirm("Password must be less than 128 characters");
     return;
 }
+    // continue prompts
+
+    } else {
+
+      // include special characters?
+
+      var hasSpecialCharacter = confirm("Would you like to include special characters?");
+
+      if (hasSpecialCharacter) {
+        userPassword += specialCharacters.join("");
+      }
+
 
 // Function for getting a random element from an array
 function getRandom(arr) {
