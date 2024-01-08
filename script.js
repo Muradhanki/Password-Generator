@@ -113,39 +113,6 @@ function getPasswordOptions() {
     var selectedLowerCasedCharacters = "";
     var selectedNumericCharacters = "";
 
-    // // include special characters?
-
-    // var includeSpecialCharacter = confirm(
-    //   "Would you like to include special characters?"
-    // );
-
-    // if (includeSpecialCharacter) {
-    //   userPassword += specialCharacters.join("");
-    // }
-
-    // // include upper case characters?
-
-    // var includeUpperCase = confirm("Would you like to include uppercase letters?");
-
-    // if (includeUpperCase) {
-    //   userPassword += upperCasedCharacters.join("");
-    // }
-
-    // // include lower case characters?
-
-    // var includeLowerCase = confirm("Would you like to include lowercase letters?");
-
-    // if (includeLowerCase) {
-    //   userPassword += lowerCasedCharacters.join("");
-    // }
-    // // include numbers?
-
-    // var includeNumbers = confirm("Would you like to include numbers?");
-
-    // if (includeNumbers) {
-    //   userPassword += numericCharacters.join("");
-    // }
-
     // include special characters?
     var includeSpecialCharacter = confirm(
       "Would you like to include special characters?"
@@ -195,7 +162,7 @@ function getPasswordOptions() {
       confirm("You must select at least one character type");
       return false;
     }
-  
+
     return true;
   }
 }
